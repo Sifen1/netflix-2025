@@ -9,8 +9,8 @@ function Home() {
   return (
     <>
         <Header />
-        {/* <Banner /> 
-        <RowList /> */}
+        {/* <Banner />  */}
+        <RowList />
         <Footer />
     </>
   )
