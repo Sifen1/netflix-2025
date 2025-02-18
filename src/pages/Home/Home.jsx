@@ -10,8 +10,8 @@ function Home() {
     <>
         <Header />
         {/* <Banner /> 
-        <RowList />
-        <Footer /> */}
+        <RowList /> */}
+        <Footer />
     </>
   )
 }
