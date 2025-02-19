@@ -48,6 +48,7 @@ function Footer() {
             </ul>
           </div>
 
+        </div>
           <div className="service_code">
             <p>Service Code</p>
           </div>
@@ -55,7 +56,6 @@ function Footer() {
           <div className="copy-write">
             &copy; 1997-2024 Netflix, Inc.
           </div>
-        </div>
       </div>
     </div>
   );

@@ -9,12 +9,13 @@
     margin-left: 30px;
     padding-top: 30px;
     height: 190px;
- 
+
 }
 .banner_title {
     font-size: 3rem;
     font-weight: 800;
     padding-bottom: 0.3rem;
+    margin-top: 8rem;
   }
   
   .banner_description {

@@ -27,7 +27,7 @@
     /* background-color: yellow; */
 }
 .header_left ul{
-    width: 140%;
+    /* width: 80%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,9 +35,15 @@
     cursor: pointer;
     /* background-color: lightblue; */
 }
+.header_right{
+    width: 20%;
+}
+.header_left {
+    width: 70%;
+}
 
 .header_right ul{
-    width: 150%;
+    /* width: 20%; */
     display: flex;
     justify-content: space-around;
     list-style: none;
