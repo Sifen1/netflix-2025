@@ -53,7 +53,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
             <h1>{title}</h1>
             <div className="row_posters">
                 {movies?.map((movie, index) => (
-                    <img
+                    <img  onError={(e) => e.target.style.display= "none"}
                         onClick={() => handleClick(movie)}
                         key={index}
                         src={`${base_url}${isLargeRow ? movie.poster_path : movie.backdrop_path}`}
